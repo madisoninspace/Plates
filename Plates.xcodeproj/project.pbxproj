@@ -14,6 +14,7 @@
 		7A0339182C192A07007303DF /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0339172C192A07007303DF /* Base.swift */; };
 		7A03391C2C192A91007303DF /* FlagKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7A03391B2C192A91007303DF /* FlagKit */; };
 		7A03391E2C192A9C007303DF /* FlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A03391D2C192A9C007303DF /* FlagView.swift */; };
+		7A03393D2C192C80007303DF /* Plate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A03393C2C192C80007303DF /* Plate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		7A0339102C1929C7007303DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A0339172C192A07007303DF /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		7A03391D2C192A9C007303DF /* FlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagView.swift; sourceTree = "<group>"; };
+		7A03393C2C192C80007303DF /* Plate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				7A0339172C192A07007303DF /* Base.swift */,
+				7A03393C2C192C80007303DF /* Plate.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			files = (
 				7A0339182C192A07007303DF /* Base.swift in Sources */,
 				7A03390B2C1929C6007303DF /* ContentView.swift in Sources */,
+				7A03393D2C192C80007303DF /* Plate.swift in Sources */,
 				7A03391E2C192A9C007303DF /* FlagView.swift in Sources */,
 				7A0339092C1929C6007303DF /* PlatesApp.swift in Sources */,
 			);

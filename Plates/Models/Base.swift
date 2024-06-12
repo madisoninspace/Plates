@@ -17,6 +17,8 @@ final class Base {
     var name: String
     var yearOfFirstIssue: String
     
+    @Relationship(deleteRule: .cascade) var plates: [Plate] = []
+    
     init(country: String, state: String, name: String, yearOfFirstIssue: String) {
         self.country = country
         self.state = state
@@ -48,7 +50,7 @@ final class Base {
             })
             
             Spacer()
-        }.badge(123)
+        }.badge(self.plates.count)
     }
 }
 

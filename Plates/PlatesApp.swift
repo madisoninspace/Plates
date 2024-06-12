@@ -13,6 +13,7 @@ struct PlatesApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Base.self,
+            Plate.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
