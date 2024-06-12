@@ -15,6 +15,7 @@
 		7A03391C2C192A91007303DF /* FlagKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7A03391B2C192A91007303DF /* FlagKit */; };
 		7A03391E2C192A9C007303DF /* FlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A03391D2C192A9C007303DF /* FlagView.swift */; };
 		7A03393D2C192C80007303DF /* Plate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A03393C2C192C80007303DF /* Plate.swift */; };
+		7A03393F2C193018007303DF /* IsNotPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A03393E2C193018007303DF /* IsNotPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7A0339172C192A07007303DF /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		7A03391D2C192A9C007303DF /* FlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagView.swift; sourceTree = "<group>"; };
 		7A03393C2C192C80007303DF /* Plate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plate.swift; sourceTree = "<group>"; };
+		7A03393E2C193018007303DF /* IsNotPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsNotPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7A0339192C192A0A007303DF /* Models */,
 				7A03390A2C1929C6007303DF /* ContentView.swift */,
 				7A03391D2C192A9C007303DF /* FlagView.swift */,
+				7A03393E2C193018007303DF /* IsNotPreview.swift */,
 				7A0339082C1929C6007303DF /* PlatesApp.swift */,
 				7A03390C2C1929C7007303DF /* Assets.xcassets */,
 				7A03390E2C1929C7007303DF /* Plates.entitlements */,
@@ -169,6 +172,7 @@
 				7A03390B2C1929C6007303DF /* ContentView.swift in Sources */,
 				7A03393D2C192C80007303DF /* Plate.swift in Sources */,
 				7A03391E2C192A9C007303DF /* FlagView.swift in Sources */,
+				7A03393F2C193018007303DF /* IsNotPreview.swift in Sources */,
 				7A0339092C1929C6007303DF /* PlatesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

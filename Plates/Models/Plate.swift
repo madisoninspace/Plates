@@ -22,14 +22,6 @@ final class Plate {
     var favorite: Bool
     @Attribute(.externalStorage) var images: [Data]?
     
-    var isNotPreview: Bool {
-        if ProcessInfo.processInfo.environment["XCODE_RUNNING_FOR_PREVIEWS"] != "1" {
-            return true
-        } else {
-            return false
-        }
-    }
-    
     init(base: Base, county: String, special: String, number: String, expiration: Date, remarks: String, sensitive: Bool, favorite: Bool, images: [Data]? = nil) {
         self.base = base
         self.county = county
