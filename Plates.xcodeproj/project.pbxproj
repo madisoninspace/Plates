@@ -16,6 +16,8 @@
 		7A03391E2C192A9C007303DF /* FlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A03391D2C192A9C007303DF /* FlagView.swift */; };
 		7A03393D2C192C80007303DF /* Plate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A03393C2C192C80007303DF /* Plate.swift */; };
 		7A03393F2C193018007303DF /* IsNotPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A03393E2C193018007303DF /* IsNotPreview.swift */; };
+		7A0339412C1930FD007303DF /* BaseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0339402C1930FD007303DF /* BaseListView.swift */; };
+		7A0339432C193116007303DF /* SearchScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0339422C193115007303DF /* SearchScope.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		7A03391D2C192A9C007303DF /* FlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagView.swift; sourceTree = "<group>"; };
 		7A03393C2C192C80007303DF /* Plate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plate.swift; sourceTree = "<group>"; };
 		7A03393E2C193018007303DF /* IsNotPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsNotPreview.swift; sourceTree = "<group>"; };
+		7A0339402C1930FD007303DF /* BaseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseListView.swift; sourceTree = "<group>"; };
+		7A0339422C193115007303DF /* SearchScope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScope.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				7A0339192C192A0A007303DF /* Models */,
+				7A0339402C1930FD007303DF /* BaseListView.swift */,
 				7A03390A2C1929C6007303DF /* ContentView.swift */,
 				7A03391D2C192A9C007303DF /* FlagView.swift */,
 				7A03393E2C193018007303DF /* IsNotPreview.swift */,
 				7A0339082C1929C6007303DF /* PlatesApp.swift */,
+				7A0339422C193115007303DF /* SearchScope.swift */,
 				7A03390C2C1929C7007303DF /* Assets.xcassets */,
 				7A03390E2C1929C7007303DF /* Plates.entitlements */,
 				7A03390F2C1929C7007303DF /* Preview Content */,
@@ -168,6 +174,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0339432C193116007303DF /* SearchScope.swift in Sources */,
+				7A0339412C1930FD007303DF /* BaseListView.swift in Sources */,
 				7A0339182C192A07007303DF /* Base.swift in Sources */,
 				7A03390B2C1929C6007303DF /* ContentView.swift in Sources */,
 				7A03393D2C192C80007303DF /* Plate.swift in Sources */,
