@@ -11,6 +11,9 @@
 		7A03390B2C1929C6007303DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A03390A2C1929C6007303DF /* ContentView.swift */; };
 		7A03390D2C1929C7007303DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A03390C2C1929C7007303DF /* Assets.xcassets */; };
 		7A0339112C1929C7007303DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0339102C1929C7007303DF /* Preview Assets.xcassets */; };
+		7A0339182C192A07007303DF /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0339172C192A07007303DF /* Base.swift */; };
+		7A03391C2C192A91007303DF /* FlagKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7A03391B2C192A91007303DF /* FlagKit */; };
+		7A03391E2C192A9C007303DF /* FlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A03391D2C192A9C007303DF /* FlagView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,8 @@
 		7A03390C2C1929C7007303DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A03390E2C1929C7007303DF /* Plates.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Plates.entitlements; sourceTree = "<group>"; };
 		7A0339102C1929C7007303DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A0339172C192A07007303DF /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		7A03391D2C192A9C007303DF /* FlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A03391C2C192A91007303DF /* FlagKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +58,10 @@
 		7A0339072C1929C6007303DF /* Plates */ = {
 			isa = PBXGroup;
 			children = (
-				7A0339082C1929C6007303DF /* PlatesApp.swift */,
+				7A0339192C192A0A007303DF /* Models */,
 				7A03390A2C1929C6007303DF /* ContentView.swift */,
+				7A03391D2C192A9C007303DF /* FlagView.swift */,
+				7A0339082C1929C6007303DF /* PlatesApp.swift */,
 				7A03390C2C1929C7007303DF /* Assets.xcassets */,
 				7A03390E2C1929C7007303DF /* Plates.entitlements */,
 				7A03390F2C1929C7007303DF /* Preview Content */,
@@ -67,6 +75,14 @@
 				7A0339102C1929C7007303DF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A0339192C192A0A007303DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A0339172C192A07007303DF /* Base.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +101,9 @@
 			dependencies = (
 			);
 			name = Plates;
+			packageProductDependencies = (
+				7A03391B2C192A91007303DF /* FlagKit */,
+			);
 			productName = Plates;
 			productReference = 7A0339052C1929C6007303DF /* Plates.app */;
 			productType = "com.apple.product-type.application";
@@ -98,6 +117,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
+				ORGANIZATIONNAME = "Madison L.H. Wass";
 				TargetAttributes = {
 					7A0339042C1929C6007303DF = {
 						CreatedOnToolsVersion = 15.4;
@@ -113,6 +133,9 @@
 				Base,
 			);
 			mainGroup = 7A0338FC2C1929C6007303DF;
+			packageReferences = (
+				7A03391A2C192A91007303DF /* XCRemoteSwiftPackageReference "FlagKit" */,
+			);
 			productRefGroup = 7A0339062C1929C6007303DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,7 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0339182C192A07007303DF /* Base.swift in Sources */,
 				7A03390B2C1929C6007303DF /* ContentView.swift in Sources */,
+				7A03391E2C192A9C007303DF /* FlagView.swift in Sources */,
 				7A0339092C1929C6007303DF /* PlatesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +384,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7A03391A2C192A91007303DF /* XCRemoteSwiftPackageReference "FlagKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/madebybowtie/FlagKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7A03391B2C192A91007303DF /* FlagKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A03391A2C192A91007303DF /* XCRemoteSwiftPackageReference "FlagKit" */;
+			productName = FlagKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7A0338FD2C1929C6007303DF /* Project object */;
 }
